@@ -1,8 +1,6 @@
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        let result = 2 + 2;
-        assert_eq!(result, 4);
-    }
+use yak_core;
+
+fn produce_message_intervaled() {
+    let x = yak_core::Message::new("clothes".into(), "hello".into());
+    
 }
