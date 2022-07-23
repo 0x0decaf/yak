@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "yak_core",
+    "yak_producer",
+    "yak_consumer",
+    "yak_broker",
+    "yak_tests"
+]
