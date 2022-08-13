@@ -25,4 +25,12 @@ impl Message {
     pub fn has_partition(&self) -> bool {
         return self.partition.is_some()
     }
+
+    pub fn serialize(&self) -> Vec<u8> {
+        Vec::new()
+    }
+
+    pub fn deserialize(bytes :&[u8]) -> Self {
+        return Self::new("Nothing".to_owned(), vec![]);
+    }
 }
